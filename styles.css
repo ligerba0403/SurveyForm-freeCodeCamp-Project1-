@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+
+body {
+  font-family: "Silkscreen", cursive;
+  background-image: linear-gradient(
+      115deg,
+      rgba(158, 78, 58, 0.8),
+      rgba(136, 152, 206, 0.7)
+    ),
+    url(https://pixabay.com/get/g76a3ddb13d50503a987ab8b8cd7fb6c7bd331802f2e52202986c4cce1e7ee9c9320f9d964b76812a8f651a50d382fbfbb4babccaf21d5a56c1d796184f36603124509ae6e1f7a89f221ac72ce0d2a4c0_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+  margin: auto;
+  height: 100%;
+  width: 700px;
+}
+.head-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.form-container {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  width: 700px;
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 40px;
+}
+
+.text-input,
+.select-input {
+  font-size: 20px;
+  color: #fff;
+}
+.select-input {
+  margin-bottom: 40px;
+}
+
+.text-input input,
+.select-input select {
+  display: block;
+  width: 100%;
+  height: 38px;
+  margin-bottom: 30px;
+  color: #495057;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.radio-input {
+  margin-bottom: 40px;
+}
+.radio-input label {
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  margin: 0 0 10px 0;
+}
+input[type="radio"] {
+  height: 1.3em;
+  width: 1.3em;
+  vertical-align: middle;
+}
+
+.checkbox {
+  margin-bottom: 40px;
+}
+.checkbox label {
+  color: #fff;
+  font-size: 18px;
+  display: block;
+  padding: 7px;
+}
+
+input[type="checkbox"] {
+  height: 1.3em;
+  width: 1.3em;
+  vertical-align: middle;
+}
+
+.textbox label {
+  color: #fff;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.textbox textarea {
+  width: 100%;
+  height: 150px;
+  font-size: 16px;
+  padding: 10px;
+  font-family: "Silkscreen", cursive;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Silkscreen", cursive;
+  color: #fff;
+  background-color: rgb(137, 192, 55);
+}
